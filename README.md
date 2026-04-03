@@ -1,23 +1,27 @@
 # Interactive Docs Skill
 
+<p align="center">
+  <img src="hero.png" alt="Interactive Docs Skill" width="100%" />
+</p>
+
 A Claude Code skill that generates a fully interactive, locally-runnable documentation website from any codebase.
 
 Analyzes your project and produces a React + Vite + TypeScript app with 10 cross-linked views — all populated from real code analysis, not templates or placeholders.
 
 ## Views
 
-| View | What it shows |
-|------|---------------|
-| System Overview | Architecture diagram with layers (client, API, services, data, external) |
-| Component Graph | Module/component hierarchy with drill-down |
-| Data Flow | Animated flow diagrams showing data movement |
-| Sequence Diagrams | Mermaid sequence diagrams for key flows |
-| Entity-Relationship | Data model visualization with entity cards |
-| State Machines | Mermaid state diagrams for stateful entities |
-| API Contracts | Grouped API endpoints with request/response shapes |
-| Dependency Graph | Source file dependencies with circular dependency detection |
-| Tech Stack | Technology inventory grouped by category |
-| ADRs | Timeline of architectural decisions |
+| View                | What it shows                                                            |
+| ------------------- | ------------------------------------------------------------------------ |
+| System Overview     | Architecture diagram with layers (client, API, services, data, external) |
+| Component Graph     | Module/component hierarchy with drill-down                               |
+| Data Flow           | Animated flow diagrams showing data movement                             |
+| Sequence Diagrams   | Mermaid sequence diagrams for key flows                                  |
+| Entity-Relationship | Data model visualization with entity cards                               |
+| State Machines      | Mermaid state diagrams for stateful entities                             |
+| API Contracts       | Grouped API endpoints with request/response shapes                       |
+| Dependency Graph    | Source file dependencies with circular dependency detection              |
+| Tech Stack          | Technology inventory grouped by category                                 |
+| ADRs                | Timeline of architectural decisions                                      |
 
 All views are cross-linked — clicking an entity in one view navigates to related entities in other views.
 
@@ -98,6 +102,10 @@ Works with any codebase. Has enhanced detection for: JavaScript/TypeScript, Pyth
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=adamyodinsky/interactive-docs-skill&type=Date)](https://star-history.com/#adamyodinsky/interactive-docs-skill&Date)
 
 ## License
 
