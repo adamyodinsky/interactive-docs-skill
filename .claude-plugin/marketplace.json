@@ -1,0 +1,38 @@
+{
+  "name": "interactive-docs-skill",
+  "owner": {
+    "name": "adamyodinsky",
+    "url": "https://github.com/adamyodinsky"
+  },
+  "metadata": {
+    "description": "Interactive documentation generator for any codebase",
+    "version": "1.0.0",
+    "repository": "https://github.com/adamyodinsky/interactive-docs-skill"
+  },
+  "plugins": [
+    {
+      "name": "interactive-docs",
+      "source": "./",
+      "description": "Generate interactive documentation websites from any codebase. Produces a React + Vite + TypeScript app with 10 cross-linked views: architecture, components, data flows, sequences, ERD, state machines, APIs, dependencies, tech stack, and ADRs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "adamyodinsky"
+      },
+      "homepage": "https://github.com/adamyodinsky/interactive-docs-skill",
+      "repository": "https://github.com/adamyodinsky/interactive-docs-skill",
+      "license": "MIT",
+      "keywords": [
+        "claude-skill",
+        "claude-code",
+        "documentation",
+        "codebase-visualization",
+        "react",
+        "interactive-docs",
+        "architecture",
+        "developer-tools"
+      ],
+      "category": "developer-tools",
+      "tags": ["documentation", "visualization", "architecture", "react", "codebase-analysis"]
+    }
+  ]
+}

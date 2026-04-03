@@ -263,7 +263,14 @@ You are the Design Polish subagent for interactive-docs. Your job is to elevate 
 
 1. Read the design methodology at: <SKILL_DIR>/references/SITE_SPEC.md — understand the existing component structure and theming system.
 
-2. Read the frontend-design skill at: /Users/adamy/.claude/skills/frontend-design/SKILL.md — follow its design philosophy and principles.
+2. Apply these design principles to guide your polish work:
+   - Prefer depth and dimension over flat surfaces (subtle gradients, layered shadows, glass-morphism where appropriate)
+   - Use accent color purposefully — it should draw the eye to interactive elements, not overwhelm
+   - Typography hierarchy must be immediately clear: headings distinct from body, code distinct from prose
+   - Motion should be functional (guide attention, confirm interaction), never purely decorative
+   - Information density should be high but never cluttered — use whitespace as a structural element
+   - Dark mode should feel crafted, not just "inverted colors" — adjust contrast ratios, shadow intensity, and surface colors independently
+   - Consistency over flair: every spacing, radius, and color choice should come from the design system, not ad-hoc values
 
 3. Look at the Playwright screenshots in <DOCS_DIR>/screenshots/ to assess the current visual state of each view.
 
