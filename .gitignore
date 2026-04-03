@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated state files
+.interactive-docs-state
+
+# Node artifacts (from generated docs projects, not this repo)
+node_modules/
